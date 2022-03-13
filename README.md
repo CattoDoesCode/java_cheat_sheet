@@ -4,8 +4,22 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 
 ### Table of Contents
 
+* [Comments](#Comments)
 * [Variables](#Variables)
 * [References](#References)
+
+## Comments
+
+#### Single-line Comment
+```java
+// This is a sample comment.
+```
+
+#### Multi-line Comment
+```java
+/* This is a sample
+multi-line comment. */
+```
 
 ## Variables
 
@@ -20,6 +34,19 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 | `double`  | 64-bit | IEEE 754 floating point         | Negative range: `-1.7976931348623157E+308` to `-4.9E-324` Positive range: `4.9E-324` to `1.7976931348623157E+308` |
 | `boolean` | 1-bit  | has only two possible values    | `true` or `false`                                                                                                 |
 | `char`    | 16-bit | single 16-bit Unicode character | `'\u0000'` (or 0) to `'\uffff'` (or 65,535 inclusive)                                                             |
+
+
+#### Declaring a Variable syntax:
+```
+<DataType> <variableName>;
+```
+
+_sample code:_
+```java
+int numVariable; // variable name is in camelCase
+char my_variable; // variable name is in snake_case
+```
+
 
 ### References
 

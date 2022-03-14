@@ -9,6 +9,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Variables](#Variables)
 * [String](#String)
 * [If...Else](#Conditionals)
+* [Switch](Switch statement)
 * [References](#References)
 
 ## Syntax
@@ -180,6 +181,96 @@ _output:_
 ```
 x is greater than y
 ```
+
+#### ternary operator
+
+_syntax:_
+```
+variable = (condition) ? expressionTrue : expressionFalse  
+```
+
+_sample code:_
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int x = 100;
+        int y = 50;
+
+        String result = (x < y) ? "x is less than y" : "x is greater than y";
+        System.out.println(result);
+
+    }
+}
+```
+
+_output:_
+```
+x is greater than y
+```
+
+## Switch statement
+
+_syntax:_
+```java
+switch(expression) {
+    case x:
+        // code block
+        break;
+    case y:
+        // code block
+        break;
+    default:
+        // code block
+}
+```
+
+_sample code:_
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int choice = 3;
+        switch(choice) {
+            case 1:
+                System.out.println("one");
+                break;
+            case 2:
+                System.out.println("two");
+                break;
+            case 3:
+                System.out.println("three");
+                break;
+        }
+
+    }
+}
+```
+
+#### enhanced switch statement
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int choice = 3;
+        switch (choice) {
+            case 1 -> System.out.println("one");
+            case 2 -> System.out.println("two");
+            case 3 -> System.out.println("three");
+        }
+
+    }
+}
+```
+
+_output:_
+
+```
+three
+```
+
 
 
 <br/><br/>

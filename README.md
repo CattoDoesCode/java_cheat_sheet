@@ -8,7 +8,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Syntax](#Syntax)
 * [Variables](#Variables)
 * [String](#String)
-* [If...Else](#IfELse)
+* [If...Else](#Conditionals)
 * [References](#References)
 
 ## Syntax

@@ -354,6 +354,49 @@ _output:_
 10
 ```
 
+#### do while loop
+
+_syntax:_
+```java
+do {
+        // code block to be executed
+}
+while (condition);
+```
+
+_sample code:_
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int i = 0;
+        do {
+            System.out.println(i);
+            i++;
+        }
+        while(i <= 10);
+
+    }
+}
+```
+
+_output:_
+
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
 <br/><br/>
 
 ### References

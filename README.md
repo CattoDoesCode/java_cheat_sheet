@@ -11,6 +11,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [If...Else](#Conditionals)
 * [Switch](#Switch)
 * [Loops](#Loops)
+* [Array](#Array)
 * [References](#References)
 
 ## Syntax
@@ -226,6 +227,8 @@ switch(expression) {
 }
 ```
 
+> The `break` keyword terminates a switch statement or a loop statement.
+
 _sample code:_
 
 ```java
@@ -272,6 +275,8 @@ _output:_
 three
 ```
 
+
+
 ## Loops
 
 #### for loop
@@ -279,7 +284,7 @@ three
 _syntax:_
 ```java
 for ((initialization); (condition); (increment)) {
-        // code block to be executed
+    // code block to be executed
 }
 ```
 
@@ -396,6 +401,86 @@ _output:_
 9
 10
 ```
+
+## Array
+
+#### Declaring & Creating an Array 
+
+_syntax:_
+```
+<dataType>[] <variable> = <value>;
+```
+
+_sample code:_
+
+```java
+String[] ones = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+```
+
+#### Access Array elements
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int[] tens = {10, 20, 30, 40, 50, 60, 70, 80, 100};
+        System.out.println(tens[2]);
+
+    }
+}
+```
+
+_output:_
+```
+30
+```
+
+#### Change Array elements
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int[] tens = {10, 20, 30, 40, 50, 60, 70, 80, 100};
+        tens[8] = 90;
+        System.out.println(tens[8]);
+
+    }
+}
+```
+
+_output:_
+```
+90
+```
+
+#### Loop through an Array
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
+        for (String d : days) {
+            System.out.println(d);
+        }
+        
+    }
+}
+```
+
+_output:_
+```
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+```
+
 
 <br/><br/>
 

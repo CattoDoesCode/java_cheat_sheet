@@ -138,6 +138,49 @@ _output:_
 length of vowels: 5
 ```
 
+## Conditionals
+
+#### If, Else if, Else statement
+
+_syntax:_
+
+```java
+if (condition1) {
+    // block of code to be executed if condition1 is true
+} 
+else if (condition2) {
+    // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    // block of code to be executed if the condition1 is false and condition2 is false
+}
+```
+
+_sample code:_
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int x = 100;
+        int y = 50;
+
+        if (x < y) {
+            System.out.println("x is less than y");
+        }
+        else if (x == y) {
+            System.out.println("x is equal to y");
+        }
+        else {
+            System.out.println("x is greater than y");
+        }
+    }
+}
+```
+
+_output:_
+```
+x is greater than y
+```
+
 
 <br/><br/>
 

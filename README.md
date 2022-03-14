@@ -12,6 +12,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Switch](#Switch)
 * [Loops](#Loops)
 * [Array](#Array)
+* [Method](#Method)
 * [References](#References)
 
 ## Syntax
@@ -404,7 +405,7 @@ _output:_
 
 ## Array
 
-#### Declaring & Creating an Array 
+#### Creating an Array 
 
 _syntax:_
 ```
@@ -481,6 +482,57 @@ Saturday
 Sunday
 ```
 
+## Method
+
+#### Creating a Method syntax
+
+```
+static void <methodName>() {
+    // code to be executed    
+}
+```
+
+_keywords:_
+> `static` means that the method belongs to the Main class and not an object of the Main class.
+> `void` means that this method does not have a return value.
+
+#### void method
+_sample code:_
+```java
+public class Main {
+    static void hello_world(){
+        System.out.println("Hello, world!");
+    }
+
+    public static void main(String[] args) {
+        hello_world();
+    }
+}
+```
+
+_output:_
+```
+Hello, world!
+```
+
+#### value returning method
+_sample code:_
+```java
+public class Main {
+    static void greet_user(String user){
+        System.out.println("Hello, " + user);
+    }
+
+    public static void main(String[] args) {
+        greet_user("Bob");
+    }
+}
+```
+
+_output:_
+```
+Hello, Bob
+```
 
 <br/><br/>
 

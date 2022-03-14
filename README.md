@@ -519,12 +519,12 @@ Hello, world!
 _sample code:_
 ```java
 public class Main {
-    static void greet_user(String user){
-        System.out.println("Hello, " + user);
+    static String greet_user(String user){
+        return "Hello, " + user;
     }
 
     public static void main(String[] args) {
-        greet_user("Bob");
+        System.out.println(greet_user("Bob"));
     }
 }
 ```

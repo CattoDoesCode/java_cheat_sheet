@@ -9,7 +9,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Variables](#Variables)
 * [String](#String)
 * [If...Else](#Conditionals)
-* [Switch](#Switch statement)
+* [Switch](#Switch)
 * [References](#References)
 
 ## Syntax
@@ -209,7 +209,7 @@ _output:_
 x is greater than y
 ```
 
-## Switch statement
+## Switch
 
 _syntax:_
 ```java

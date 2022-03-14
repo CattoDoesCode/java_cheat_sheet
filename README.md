@@ -487,7 +487,7 @@ Sunday
 #### Creating a Method syntax
 
 ```
-static void <methodName>() {
+static <void> <methodName>() {
     // code to be executed    
 }
 ```
@@ -495,6 +495,17 @@ static void <methodName>() {
 _keywords:_
 > `static` means that the method belongs to the Main class and not an object of the Main class.
 > `void` means that this method does not have a return value.
+
+or
+
+```
+static <dataType> <methodName>() {
+    // code to be executed  
+    return <value or expression>  
+}
+```
+
+> If you want the method to return a value, you can use a primitive data type (such as `int`, `char`, etc.) instead of `void`, and use the `return` keyword inside the method:
 
 #### void method
 _sample code:_
@@ -515,7 +526,7 @@ _output:_
 Hello, world!
 ```
 
-#### value returning method
+#### value-returning method
 _sample code:_
 ```java
 public class Main {

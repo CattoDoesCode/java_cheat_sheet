@@ -10,6 +10,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [String](#String)
 * [If...Else](#Conditionals)
 * [Switch](#Switch)
+* [Loops](#Loops)
 * [References](#References)
 
 ## Syntax
@@ -271,7 +272,87 @@ _output:_
 three
 ```
 
+## Loops
 
+#### for loop
+
+_syntax:_
+```java
+for ((initialization); (condition); (increment)) {
+        // code block to be executed
+}
+```
+
+_sample code:_
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        for (int i = 0; i <= 10; i+=1) {
+            System.out.println(i);
+        }
+
+    }
+}
+```
+
+_output:_
+
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+#### while loop
+
+_syntax:_
+```java
+while(condition) {
+    // code block to be executed    
+}
+```
+
+_sample code:_
+
+```java
+public class Main {
+    public static void main(String[] args) {
+
+        int i = 0;
+        while(i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+
+    }
+}
+```
+
+_output:_
+
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
 
 <br/><br/>
 

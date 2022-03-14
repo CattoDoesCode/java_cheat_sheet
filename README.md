@@ -7,6 +7,8 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Comments](#Comments)
 * [Syntax](#Syntax)
 * [Variables](#Variables)
+* [String](#String)
+* [If...Else](#IfELse)
 * [References](#References)
 
 ## Syntax
@@ -20,6 +22,12 @@ public class Main {
 	    // write your code here
     }
 }
+```
+
+#### Printing a line to the console
+
+```java
+System.out.println("Hello World");
 ```
 
 ## Comments
@@ -93,6 +101,43 @@ _sample code:_
 numVariable = 100; 
 my_variable = 'x'; // single quotation marks ('') for char and double quotation marks for string("")
 ```
+
+## String
+
+#### Creating a variable of type `String`
+
+```java
+String myString = "Java";
+```
+
+#### String Methods
+
+| Method              | Description                                                                                                         |
+|---------------------|---------------------------------------------------------------------------------------------------------------------|
+| `lenth()`           | returns the length of characters inside the string                                                                  |
+| `toUpperCase`       | converts a string into upper case                                                                                   |
+| `toLowerCase`       | converts a string into lower case                                                                                   | 
+| `indexOf("locate")` | returns the index (the position) of the first occurrence of a specified text in a string (including whitespace)     | 
+
+> for more string methods: https://www.w3schools.com/java/java_ref_string.asp
+
+_sample code:_
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        String vowels = "AEIOU";
+        System.out.println("length of vowels: " + vowels.length());
+    }
+}
+```
+
+_output:_
+```
+length of vowels: 5
+```
+
 
 <br/><br/>
 

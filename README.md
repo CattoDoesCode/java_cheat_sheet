@@ -9,7 +9,7 @@ Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
 * [Variables](#Variables)
 * [String](#String)
 * [If...Else](#Conditionals)
-* [Switch](Switch statement)
+* [Switch](#Switch statement)
 * [References](#References)
 
 ## Syntax

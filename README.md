@@ -1,6 +1,6 @@
 # java_cheat_sheet
 
-Java Programming Language Cheat Sheet by :smile_cat:CattoDoesCode
+Core Java Concepts Cheat Sheet by :smile_cat:CattoDoesCode
 
 ### Table of Contents
 
